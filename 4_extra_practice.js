@@ -4,3 +4,10 @@
 // YOUR CODE HERE
 
 
+var arr = [8,6,7,5,3,0,9];
+var newArr = [];
+for(var i=0; i<arr.length; i++){
+    newArr.push(arr[arr.length-i-1]);
+}
+console.log(arr);
+console.log(newArr);
