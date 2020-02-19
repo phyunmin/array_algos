@@ -23,10 +23,12 @@
 // console.log(newArr);
 
 var arr = [8,6,7,5,3,0,9];
-var midIndex = arr.length/2;
+var midIndex = Math.floor(arr.length/2);
 for(var i=0; i<midIndex; i++){
     var temp = arr[i];
     arr[i] = arr[arr.length-1-i];
     arr[arr.length-1-i] = temp;
+    //console.log(arr);
 }
-console.log(arr);
+// console.log(midIndex);
+ console.log(arr);
